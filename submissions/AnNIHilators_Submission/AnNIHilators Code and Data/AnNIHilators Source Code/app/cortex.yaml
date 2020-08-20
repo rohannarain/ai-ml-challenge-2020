@@ -1,0 +1,11 @@
+- name: gsa-eula-ml
+  predictor:
+    type: python
+    path: predictor.py
+    config:
+      model: s3://distilbert-predictor/distilbert_predictor
+  compute:
+    gpu: 1
+    mem: 2G
+  update_strategy: 
+    max_surge: 0

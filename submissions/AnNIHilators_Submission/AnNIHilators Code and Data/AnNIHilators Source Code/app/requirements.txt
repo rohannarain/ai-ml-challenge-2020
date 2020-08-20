@@ -1,0 +1,5 @@
+# Cortex env requirements
+
+ktrain
+docx2txt
+pdfminer.six
